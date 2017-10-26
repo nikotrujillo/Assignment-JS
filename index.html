@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ 	 <link rel="stylesheet" type="text/css" href="game.css">
+  </head>
+  <body>
+	  <div id="intro">
+		<div id="introMenu">
+			
+				<a id="one" class="menuText" href="game.html">Play!</a>
+				<script>
+				document.getElementById("one").onmousedown = function() {mouseDown()};
+				function mouseDown() {
+				document.getElementById("one").href = "game.html";
+				document.getElementById("one").target = "_self";}
+				</script>
+		</div>
+	  </div>
+  </body>
+</html>
